@@ -1,1 +1,12 @@
 @import "tailwindcss";
+.phone{width: 127px;
+height: 223px;
+}
+.keybord{
+width: 406px;
+height: 361px;
+}
+.img2{
+width: 256px;
+height: 223px;
+}
