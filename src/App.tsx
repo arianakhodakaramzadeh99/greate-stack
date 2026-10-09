@@ -1,11 +1,17 @@
-import React from 'react'
-import Header from  './Header'
+import React from "react";
+import Header from "./assets/Header";
+import { createBrowserRouter } from "react-router";
 const App = () => {
   return (
     <Header>
-
+      <Age></Age>
     </Header>
-  )
-}
-
-export default App
+  );
+};
+const router = createBrowserRouter([
+  {
+    path: "/",
+    component: signup,
+  },
+]);
+export default App;
